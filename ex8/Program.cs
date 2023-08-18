@@ -10,17 +10,18 @@ namespace ex8
     {
         static void Main(string[] args)
         {
-            bool exitWord = true;
+            bool isExit = true;
             string word;
+            string exitWord = "exit";
 
-            while (exitWord)
+            while (isExit)
             {
                 Console.Write("Введите слово exit: ");
                 word = Console.ReadLine();
 
-                if (word == "exit")
+                if (word == exitWord)
                 {
-                    exitWord = false;
+                    isExit = false;
                 }
                 else
                 {
