@@ -16,7 +16,7 @@ namespace ex8
 
             while (isExit)
             {
-                Console.Write("Введите слово exit: ");
+                Console.Write($"Введите слово {exitWord}: ");
                 word = Console.ReadLine();
 
                 if (word == exitWord)
